@@ -311,7 +311,7 @@ async def main():
     
     # Mantener en ejecución
     try:
-        await app.updater.idle()
+        await asyncio.sleep(float('inf'))
     finally:
         await app.stop()
 
