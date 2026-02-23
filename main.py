@@ -13,10 +13,10 @@ from telegram.ext import (
 )
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.exceptions import RefreshError
-from googleapiclient.discovery import build
-import httpx
+# OAuth será manejado dinámicamente
+#from google.auth.exceptions import RefreshError
+#from googleapiclient.discovery import build
+#import httpx
 
 from gmb_client import GMBClient
 from claude_analyzer import ClaudeAnalyzer
