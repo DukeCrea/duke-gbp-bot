@@ -1,0 +1,19 @@
+# Google APIs
+google-auth==2.26.1
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.111.0
+
+# Telegram Bot
+python-telegram-bot==21.0.1
+
+# Claude AI
+anthropic==0.25.1
+
+# HTTP & Async
+requests==2.31.0
+httpx==0.25.1
+aiohttp==3.9.1
+
+# Environment
+python-dotenv==1.0.0
